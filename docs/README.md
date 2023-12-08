@@ -7,10 +7,32 @@ de endpoints disponibles con enlaces a sus respectivas documentaciones detallada
 
 | Recurso                    | Descripción |
 | -------------------------- | ----------- |
-| `GET /temas`               | Recupera la lista de todos los temas disponibles. |
-| [`GET /temas/{id}`](./endpoints//get-temas-id.md)          | Obtiene información detallada sobre un tema específico. |
-| [`GET /temas/{id}/libros`](./endpoints/get-temas-id-libros.md)   | Obtiene la lista de libros asociados a un tema específico. |
-| `GET /libros`              | Recupera la lista de todos los libros disponibles. |
-| `GET /libros/{id}/autores` | Obtiene la lista de autores de un libro específico. |
-| `GET /autores`             | Recupera la lista de todos los autores disponibles. |
-| `GET /autores/{id}`        | Obtiene información detallada sobre un autor específico. |
+| [`GET /usuarios`](./endpoints/get-usuarios.md) | Recupera la lista de todos los usuarios. |
+| [`GET /usuarios/{id}`](./endpoints/get-usuarios-id.md) | Obtiene información detallada sobre un usuario específico. |
+| [`POST /usuarios`](./endpoints/post-usuarios.md) | Crea un nuevo usuario. |
+| [`PUT /usuarios/{id}`](./endpoints/put-usuario-id.md) | Actualiza todos los campos de un usuario específico. |
+| [`PATCH /usuarios/{id}`](./endpoints/patch-usuario-id.md) | Actualiza parcialmente un usuario específico. |
+
+| Recurso                    | Descripción |
+| -------------------------- | ----------- |
+| [`GET /contrasenas`](./endpoints/get-contrasenas.md) | Recupera la lista de todas las contraseñas guardadas. |
+| [`GET /contrasenas/{id}`](./endpoints/get-contrasenas-id.md) | Obtiene información detallada sobre una contraseña guardada específica. |
+| [`POST /contrasenas`](./endpoints/post-contrasenas.md) | Crea una nueva contraseña guardada. |
+| [`PUT /contrasenas/{id}`](./endpoints/put-contrasenas-id.md) | Actualiza todos los campos de una contraseña guardada específica. |
+| [`PATCH /contrasenas/{id}`](./endpoints/patch-contrasenas-id.md) | Actualiza parcialmente una contraseña guardada específica. |
+
+| Recurso                    | Descripción |
+| -------------------------- | ----------- |
+| [`GET /anuncios`](./endpoints/get-anuncios.md) | Recupera la lista de todos los anuncios. |
+| [`GET /anuncios/{id}`](./endpoints/get-anuncios-id.md) | Obtiene información detallada sobre un anuncio específico. |
+| [`POST /anuncios`](./endpoints/post-anuncios.md) | Crea un nuevo anuncio. |
+| [`PUT /anuncios/{id}`](./endpoints/put-anuncios-id.md) | Actualiza todos los campos de un anuncio específico. |
+| [`PATCH /anuncios/{id}`](./endpoints/patch-anuncios-id.md) | Actualiza parcialmente un anuncio específico. |
+
+| Recurso                    | Descripción |
+| -------------------------- | ----------- |
+| [`GET /consejos`](./endpoints/get-consejos.md) | Recupera la lista de todos los consejos de seguridad. |
+| [`GET /consejos/{id}`](./endpoints/get-consejos-id.md) | Obtiene información detallada sobre un consejo de seguridad específico. |
+| [`POST /consejos`](./endpoints/post-consejos.md) | Crea un nuevo consejo de seguridad. |
+| [`PUT /consejos/{id}`](./endpoints/put-consejos-id.md) | Actualiza todos los campos de un consejo de seguridad específico. |
+| [`PATCH /consejos/{id}`](./endpoints/patch-consejos-id.md) | Actualiza parcialmente un consejo de seguridad específico. |
