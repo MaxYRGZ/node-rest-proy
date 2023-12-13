@@ -1,5 +1,4 @@
 
-```markdown
 # Endpoint: `PUT /contrasenas/{id}`
 
 Permite actualizar todos los campos de una contraseña guardada específica mediante su identificador único.

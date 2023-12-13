@@ -1,4 +1,4 @@
-```markdown
+
 # Endpoint: `POST /contrasenas`
 
 Permite crear una nueva contraseña guardada en el sistema.

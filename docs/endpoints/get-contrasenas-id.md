@@ -1,5 +1,4 @@
 
-```markdown
 # Endpoint: `GET /contrasenas/{id}`
 
 Permite obtener información detallada sobre una contraseña específica mediante su identificador único.

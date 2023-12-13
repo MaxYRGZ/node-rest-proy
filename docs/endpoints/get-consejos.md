@@ -1,5 +1,4 @@
 
-```markdown
 # Endpoint: `GET /contrasenas`
 
 Permite obtener la lista de las primeras doce contraseñas registradas en el sistema.

@@ -1,5 +1,4 @@
 
-```markdown
 # Endpoint: `PATCH /anuncio/{id}`
 
 Permite actualizar parcialmente los campos de un usuario específico mediante su identificador único.

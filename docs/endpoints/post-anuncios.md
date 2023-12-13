@@ -1,4 +1,4 @@
-```markdown
+
 # Endpoint: `POST /anuncios`
 
 Permite asociar un anuncios existente a un nuevo anuncio en el sistema.

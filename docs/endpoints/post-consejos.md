@@ -1,4 +1,4 @@
-```markdown
+
 # Endpoint: `POST /consejos`
 
 Permite agregar un nuevo consejo de seguridad al sistema.

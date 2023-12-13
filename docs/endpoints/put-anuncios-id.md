@@ -1,5 +1,4 @@
 
-```markdown
 # Endpoint: `PUT /anuncios/{id}`
 
 Permite actualizar todos los campos de un anuncio específico mediante su identificador único.

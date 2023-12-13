@@ -60,5 +60,5 @@ GET /usuarios
   la documentación del endpoint
 [`GET /usuarios/{id}`](./endpoints/get-usuarios-id.md)
 [`POST /usuarios`](./endpoints/post-usuarios.md)
-[`PUT /usuarios/{id}`](./endpoints/put-usuario-id.md)
-[`PATCH /usuarios/{id}`](./endpoints/patch-usuario-id.md)
+[`PUT /usuarios/{id}`](./endpoints/put-usuarios-id.md)
+[`PATCH /usuarios/{id}`](./endpoints/patch-usuarios-id.md)

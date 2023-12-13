@@ -1,5 +1,4 @@
 
-```markdown
 # Endpoint: `PATCH /contrasenas/{id}`
 
 Permite actualizar parcialmente los campos de una contraseña específica mediante su identificador único.

@@ -1,4 +1,4 @@
-```markdown
+
 # Endpoint: `PUT /consejos/{id}`
 
 Permite actualizar todos los campos de un consejo de seguridad específico mediante su identificador único.

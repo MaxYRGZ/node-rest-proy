@@ -1,4 +1,3 @@
-```markdown
 # Endpoint: `GET /consejos/{id}`
 
 Permite obtener información detallada sobre un consejo de seguridad específico mediante su identificador único.

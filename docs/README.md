@@ -10,8 +10,8 @@ de endpoints disponibles con enlaces a sus respectivas documentaciones detallada
 | [`GET /usuarios`](./endpoints/get-usuarios.md) | Recupera la lista de todos los usuarios. |
 | [`GET /usuarios/{id}`](./endpoints/get-usuarios-id.md) | Obtiene información detallada sobre un usuario específico. |
 | [`POST /usuarios`](./endpoints/post-usuarios.md) | Crea un nuevo usuario. |
-| [`PUT /usuarios/{id}`](./endpoints/put-usuario-id.md) | Actualiza todos los campos de un usuario específico. |
-| [`PATCH /usuarios/{id}`](./endpoints/patch-usuario-id.md) | Actualiza parcialmente un usuario específico. |
+| [`PUT /usuarios/{id}`](./endpoints/put-usuarios-id.md) | Actualiza todos los campos de un usuario específico. |
+| [`PATCH /usuarios/{id}`](./endpoints/patch-usuarios-id.md) | Actualiza parcialmente un usuario específico. |
 
 | Recurso                    | Descripción |
 | -------------------------- | ----------- |
