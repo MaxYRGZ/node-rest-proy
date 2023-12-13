@@ -1,33 +1,29 @@
 
-# Endpoint: `GET /contrasenas`
+# Endpoint: `GET /consejos`
 
-Permite obtener la lista de las primeras doce contraseñas registradas en el sistema.
+Permite obtener la lista de los  consejos registrados en el sistema.
 
 ## Ejemplo de Solicitud
 ```http
-GET /contrasenas
+GET /consejos
 ```
 
 ## Respuesta Exitosa (Código 200 OK)
 ```json
 [
   {
-    "id_contrasena": 1,
-    "id_usuario": 1,
-    "nombre_sitio": "Sitio1",
-    "nombre_usuario": "UsuarioSitio1",
-    "contraseña": "contraseña1"
-    // Otros campos de la contraseña
+    "id_consejo": 1,
+    "id_anuncio": 1,
+    "contenido": "Consejo de seguridad 1"
+    // Otros campos del consejo de seguridad
   },
   {
-    "id_contrasena": 2,
-    "id_usuario": 2,
-    "nombre_sitio": "Sitio2",
-    "nombre_usuario": "UsuarioSitio2",
-    "contraseña": "contraseña2"
-    // Otros campos de la contraseña
+    "id_consejo": 2,
+    "id_anuncio": 2,
+    "contenido": "Consejo de seguridad 2"
+    // Otros campos de la consejo
   },
-  // ... hasta la contraseña 12
+  // ... hasta el ultimo consejo
 ]
 
 
@@ -40,7 +36,7 @@ GET /contrasenas
   {
     "errno": 404,
     "error": "not_found",
-    "error_description": "No se encontró la contraseña."
+    "error_description": "No se encontró el consejo."
   }
   ```
 
@@ -60,7 +56,7 @@ GET /contrasenas
 Este es el texto actualizado para el endpoint `GET /consejos`, listo para su uso.
 - Para consultar más detalle sobre usuario consultar
   la documentación del endpoint
-[`GET /consejos/{id}`](./endpoints/get-consejos-id.md)
-[`POST /consejos`](./endpoints/post-consejos.md)
-[`PUT /consejos/{id}`](./endpoints/put-consejos-id.md)
-[`PATCH /consejos/{id}`](./endpoints/patch-consejos-id.md)
+[`GET /consejos/{id}`](../endpoints/get-consejos-id.md)
+[`POST /consejos`](../endpoints/post-consejos.md)
+[`PUT /consejos/{id}`](../endpoints/put-consejos-id.md)
+[`PATCH /consejos/{id}`](../endpoints/patch-consejos-id.md)

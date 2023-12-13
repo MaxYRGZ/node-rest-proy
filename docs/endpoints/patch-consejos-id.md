@@ -1,17 +1,17 @@
-# Endpoint: `PATCH /usuarios/{id}`
+# Endpoint: `PATCH /consejos/{id}`
 
-Permite actualizar parcialmente los campos de un usuario específico mediante su identificador único.
+Permite actualizar parcialmente los campos de un consejo específico mediante su identificador único.
 
 ## Parámetros de URL
-- `{id}` (obligatorio): Identificador único del usuario que se desea actualizar.
+- `{id}` (obligatorio): Identificador único del consejo que se desea actualizar.
 
 ## Ejemplo de Solicitud
 ```http
-PATCH /usuarios/12
+PATCH /consejo/12
 Content-Type: application/json
 
 {
-  "nombre": "UsuarioModificado"
+   "contenido": "Consejo de seguridad 122"
   // Campos actualizados parcialmente
 }
 ```
@@ -40,7 +40,7 @@ Content-Type: application/json
   {
     "errno": 404,
     "error": "not_found",
-    "error_description": "No se encontró el usuario a actualizar."
+    "error_description": "No se encontró el consejo a actualizar."
   }
   ```
   
@@ -55,7 +55,7 @@ Content-Type: application/json
 
 ## Notas Adicionales
 
-- Asegúrate de enviar los datos válidos y completos del usuario para realizar la actualización parcial.
+- Asegúrate de enviar los datos válidos y completos del consejo para realizar la actualización parcial.
 ```
 
-Ahora tendrás todo el contenido del endpoint `PATCH /usuarios/{id}` listo para ser copiado y pegado donde lo necesites.
+Ahora tendrás todo el contenido del endpoint `PATCH /consejo/{id}` listo para ser copiado y pegado donde lo necesites.
