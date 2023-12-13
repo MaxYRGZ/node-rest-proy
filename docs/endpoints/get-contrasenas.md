@@ -57,10 +57,10 @@ GET /contrasenas
 ## Notas Adicionales
 
 - Para obtener más detalles sobre una contraseña en particular, consulta la documentación del endpoint
-[`GET /contrasenas/{id}`](./endpoints/get-contrasenas-id.md)
-[`POST /contrasenas`](./endpoints/post-contrasenas.md)
-[`PUT /contrasenas/{id}`](./endpoints/put-contrasenas-id.md)
-[`PATCH /contrasenas/{id}`](./endpoints/patch-contrasenas-id.md)
+[`GET /contrasenas/{id}`](../endpoints/get-contrasenas-id.md)
+[`POST /contrasenas`](../endpoints/post-contrasenas.md)
+[`PUT /contrasenas/{id}`](../endpoints/put-contrasenas-id.md)
+[`PATCH /contrasenas/{id}`](../endpoints/patch-contrasenas-id.md)
 ```
 
 Esta documentación describe cómo obtener las primeras doce contraseñas registradas en el sistema a través del endpoint `GET /contrasenas`.

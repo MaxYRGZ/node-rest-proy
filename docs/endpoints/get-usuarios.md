@@ -58,7 +58,7 @@ GET /usuarios
 
 - Para consultar más detalle sobre usuario consultar
   la documentación del endpoint
-[`GET /usuarios/{id}`](./endpoints/get-usuarios-id.md)
-[`POST /usuarios`](./endpoints/post-usuarios.md)
-[`PUT /usuarios/{id}`](./endpoints/put-usuarios-id.md)
-[`PATCH /usuarios/{id}`](./endpoints/patch-usuarios-id.md)
+[`GET /usuarios/{id}`](../endpoints/get-usuarios-id.md)
+[`POST /usuarios`](../endpoints/post-usuarios.md)
+[`PUT /usuarios/{id}`](../endpoints/put-usuarios-id.md)
+[`PATCH /usuarios/{id}`](../endpoints/patch-usuarios-id.md)

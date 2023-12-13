@@ -64,7 +64,7 @@ GET /anuncio
 
 - Para consultar más detalle sobre usuario consultar
   la documentación del endpoint
-[`GET /anuncio/{id}`](./endpoints/get-anuncio-id.md)
-[`POST /anuncio`](./endpoints/post-anuncio.md)
-[`PUT /anuncio/{id}`](./endpoints/put-anuncio-id.md)
-[`PATCH /anuncio/{id}`](./endpoints/patch-anuncio-id.md)
+[`GET /anuncio/{id}`](../endpoints/get-anuncios-id.md)
+[`POST /anuncio`](../endpoints/post-anuncios.md)
+[`PUT /anuncio/{id}`](../endpoints/put-anuncios-id.md)
+[`PATCH /anuncio/{id}`](../endpoints/patch-anuncios-id.md)
