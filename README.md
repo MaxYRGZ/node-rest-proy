@@ -1,11 +1,10 @@
-# API RESTful con Node.js
+# API de Gestión de Usuarios, Contraseñas, Consejos y Anuncios
 
-Proyecto de demostración para clases de desarrollo de APIs utilizando Node.js,
-con implementación en contenedores de Docker.
+Este proyecto presenta una API RESTful que administra usuarios, contraseñas, consejos y anuncios. Utiliza Node.js y se ejecuta en contenedores Docker para una fácil implementación y despliegue.
 
 ## Tabla de contenido
 
-- [API RESTful con Node.js](#api-restful-con-nodejs)
+- [API de Gestión de Usuarios, Contraseñas, Consejos y Anuncios](#api-de-gestión-de-usuarios-contraseñas-consejos-y-anuncios)
   - [Tabla de contenido](#tabla-de-contenido)
   - [Requisitos de instalación](#requisitos-de-instalación)
   - [Instrucciones para la instalación](#instrucciones-para-la-instalación)
